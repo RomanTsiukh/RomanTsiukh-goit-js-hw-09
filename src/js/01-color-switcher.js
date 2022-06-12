@@ -13,7 +13,6 @@ refs.stoptBtn.addEventListener('click', stopAnyColor)
 
 let colorId = null;
 
-// Функція зміни фону при натисканні на Start
     function startAnyColor () {
         refs.startBtn.disabled = true;
         refs.stoptBtn.disabled = false;
@@ -22,7 +21,6 @@ let colorId = null;
         }, 1000)  
     }
     
-// Функція зупинки зміни фону при натисканні на Stop
     function stopAnyColor() {
         refs.startBtn.disabled = false;
         refs.stoptBtn.disabled = true;
