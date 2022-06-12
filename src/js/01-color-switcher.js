@@ -20,12 +20,17 @@ let colorId = null;
         colorId = setInterval(() => {
             refs.body.style.backgroundColor = getRandomHexColor();
         }, 1000)  
-    }
- 
+    };
+
+
 // Функція зупинки зміни фону при натисканні на Stop
     function stopAnyColor() {
         refs.startBtn.disabled = false;
         refs.stoptBtn.disabled = true;
         clearInterval(colorId)
-    }
+    };
+
+
+
+    // fgh
 
