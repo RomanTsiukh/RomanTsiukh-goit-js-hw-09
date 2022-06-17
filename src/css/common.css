@@ -16,3 +16,29 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  max-width: 100%;
+}
+
+
+/* Стилі для таймеру зворотнього відліку: */
+.field {
+  width: auto;
+  padding: 10px;
+  font-size: 8px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+} 
+
+.value {
+  font-size: 36px;
+  text-align: center;
+}
+
+.label {
+ text-align: center;
+ font-size: 14px;
+}
